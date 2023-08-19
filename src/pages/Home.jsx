@@ -34,7 +34,7 @@ const Home = () => {
               media="(min-width: 768px) and (max-width: 1239px)"
               srcSet={createAndShare2}
             />
-            <img src={createAndShare3} alt="Image" />
+            <img src={createAndShare3} alt="Image" className="hero-img" />
           </picture>
           <div className="container flow" style={{ "--flow-spacer": "21px" }}>
             <p className="h1">Create and share your photo Stories</p>
@@ -65,7 +65,7 @@ const Home = () => {
               media="(min-width: 768px) and (max-width: 1239px)"
               srcSet={beautifulStory2}
             />
-            <img src={beautifulStory3} alt="Image" />
+            <img src={beautifulStory3} alt="Image" className="hero-img" />
           </picture>
           <div className="container flow" style={{ "--flow-spacer": "21px" }}>
             <p className="h1">Beautiful stories every time</p>
@@ -96,7 +96,7 @@ const Home = () => {
               media="(min-width: 768px) and (max-width: 1239px)"
               srcSet={design2}
             />
-            <img src={design3} alt="Image" />
+            <img src={design3} alt="Image" className="hero-img" />
           </picture>
           <div className="container flow" style={{ "--flow-spacer": "21px" }}>
             <p className="h1">Designed for everyone</p>
