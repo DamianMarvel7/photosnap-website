@@ -37,7 +37,7 @@ const Pricing = () => {
     };
   }, []);
 
-  const [priceMultiplier, setPriceMultiplier] = useState(false);
+  const [priceMultiplier, setPriceMultiplier] = useState(1);
 
   const handleCheckboxChange = (event) => {
     const priceMultiplier = event.target.checked ? 10 : 1;
